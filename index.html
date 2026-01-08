@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="icon" type="image/x-icon" href="imges/Soft Pink Feminine Haircut Beauty Salon Logo.png">
+  <title>Glamour Touch</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <img src="imges/Soft Pink Feminine Haircut Beauty Salon Logo.png"> <br>
+      <div class="logo">
+        <a href="#"> Glamour Touch</a>
+      </div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#product">All</a></li>
+        <li><a href="#hair">Hair</a></li>
+        <li><a href="#skin">Skin</a></li>
+        <li><a href="#nails">Nails</a></li>
+        <li><a href="#makeup">Make-Up</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="all" class="section">
+    <div class="section__container">
+      <div class="content">
+        <div class="left">
+          <p class="subtitle">Discover</p>
+          <h1 class="title">
+            <span> Safe,Branded</span> Beauty Products <br>at Glamour Touch!
+          </h1>
+          <p class="descriptionmain">
+            ;where beauty meets wellness! Explore our curated selection of skin, hair, nails, and
+            makeup products, all from trusted brands. Our non-harmful, high-quality products are designed
+            to enhance your natural beauty while keeping your health in mind. Whether you're looking for a
+            revitalizing skincare routine, luxurious hair care, or the perfect makeup look, we have everything
+            you need to feel confident and radiant. Your beauty journey starts here!
+          </p>
+          <div class="action__btns">
+            <a href="#contact"> <button class="contact__us">Back to Home </button></a>
+            <div class="action__btns">
+              <a href="#home"> <button class="contact__us"> Contact Us </button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+
+          <div class="image">
+
+            <img id="imges" src="./imges/ico3.jpg" alt="Random Image">
+
+            <script type="text/javascript">
+              let image = document.getElementById('imges');
+
+              // Ensure that the paths to the images are correct
+              let images = ['./imges/ico3.jpg', './imges/ico1.jpg', './imges/ico7.jpg'];
+
+              // Changing the image every 2000 milliseconds
+              setInterval(function () {
+                let random = Math.floor(Math.random() * images.length);
+                image.src = images[random];
+              }, 2000);
+            </script>
+
+          </div>
+
+        </div>
+
+      </div>
+  </section>
+  <section id="product" class="section_product">
+    <div class="section__container">
+      <h2>ALL PRODUCTS</h2>
+      <br>
+      <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="imges/hair-8.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Coconut Hair Nourishing Oil</h2>
+                <p class="description"> Spa Ceylon </p>
+                <a href="https://lk.spaceylon.com/products/virgin-coconut-scalp-hair-nourishing-oil-100ml">
+                  <button class="button">Buy</button> </a>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/skin8.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Alpha Aributin 2% + HA</h2>
+                <p class="description"> The Ordinary </p>
+                <a href="https://cosmetics.lk/product/the-ordinary-alpha-arbutin-2-ha-serum-30ml-canada/">
+                  <button class="button">Buy</button> </a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>      
+
+                <div class="card-image">
+                  <img src="imges/nail8.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name"> Top Coat</h2>
+                <p class="description">Dip Essentials </p>
+                <a href="https://www.britishcosmetics.lk/shop/dip-essentials-top-coat/">
+                  <button class="button"> Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/makeup8.png" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Lip Liner</h2>
+                <p class="description"> CCUK </p>
+                <a href="https://www.britishcosmetics.lk/shop/lip-liner/">
+                  <button class="button"> Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/hair7.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Leave on Conditioner</h2>
+                <p class="description">Dreamron </p>
+                <a href="https://dreamron.lk/product/leave-on-conditioner/">
+                  <button class="button"> Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/skin7.jpeg" alt="" class="card-img">
+                </div>      
+              </div>
+              <div class="card-content">
+                <h2 class="name"> Niacinamide 10% + Zinc 1% </h2>
+                <p class="description"> The Ordinary </p>
+                <a href="https://www.essentials.lk/products/the-ordinary-niacinamide-10-zinc-1-30ml-2585-2-3670-7">
+                  <button class="button"> Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/nail7.png" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name"> Nail Polish</h2>
+                <p class="description">MORGAN TAYLOR </p>
+                <a href="https://www.britishcosmetics.lk/shop/morgan-taylor-nail-polish/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/makeup.7.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name"> Water Proof Mascara</h2>
+                <p class="description">Viana </p>
+                <a href="https://viana.lk/product/viana-water-proof-mascara/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/hair6.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name"> Anti Frizz Conditioner</h2>
+                <p class="description">TREsemme</p>
+                <a
+                  href="https://cosmetics.lk/product/tresemme-buy-keratin-smooth-marula-oil-conditioner-400ml-sri-lanka/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/skin6.jpeg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name"> Radiance Refresh Toner</h2>
+                <p class="description">Cetaphil </p>
+                <a
+                  href="https://cosmetics.lk/product/tresemme-buy-keratin-smooth-marula-oil-conditioner-400ml-sri-lanka/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/nail.6.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Fashion Nail Polish</h2>
+                <p class="description">Viana Valentine Edition </p>
+                <a href="https://viana.lk/product/viana-fashion-nail-polish-valentine-edition/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/makeup.6.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Power Blusher</h2>
+                <p class="description">Viana </p>
+                <a href="https://viana.lk/product/makeup-face-viana-blusher/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/hair5.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Fiber Volume Conditioner</h2>
+                <p class="description"> TREsemme</p>
+                <a
+                  href="https://www.ubuy.com.lk/en/product/6KI6CHMA-tresemme-pro-advanced-conditioner-for-instant-volume-and-body-fiber-full-volume-long-lasting-buildab">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/skin5.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Facial Moisturizing Lotion</h2>
+                <p class="description">Cerave AM</p>
+                <a href="https://cosmetics.lk/product/cerave-am-facial-moisturizing-lotion-89ml-spf-30/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/nail5.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Mango Orange Cuticle Oil</h2>
+                <p class="description">Seren London Vegan </p>
+                <a
+                  href="https://www.essentials.lk/collections/nails/products/seren-london-vegan-mango-orange-cuticle-oil">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/makeup.5.png" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Glowy Lip Balm Peach</h2>
+                <p class="description"> British Cosmetics</p>
+                <a href="https://www.britishcosmetics.lk/shop/glowy-lip-balm-peach/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/hair4.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Hydra Pure Shampoo</h2>
+                <p class="description">L'oreal Elvive</p>
+                <a href="https://cosmetics.lk/product/loreal-elvive-hydra-pure-72h-purifying-shampoo-400ml/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/skin4.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Mineral Sunscreen</h2>
+                <p class="description">Cetaphil</p>
+                <a href="https://cosmetics.lk/product/cetaphil-sheer-mineral-sunscreen-spf50-89ml/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/nails4.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Myco Jelly Primer</h2>
+                <p class="description">Silcare Help To</p>
+                <a
+                  href="https://www.essentials.lk/collections/nails/products/silcare-help-to-quick-fix-myco-jelly-primer-15ml">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/makeup4.png" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Eye Shadow Pallet</h2>
+                <p class="description">Mocha</p>
+                <a href="https://www.britishcosmetics.lk/shop/mocha-eye-shadow-palette/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/hair3.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Anti Breakage Shampoo</h2>
+                <p class="description">L'oreal Elvive</p>
+                <a href="https://cosmetics.lk/product/loreal-elvive-anti-breakage-strengthening-shampoo-400ml/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/skin3.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Oily Skin Clenser</h2>
+                <p class="description">Cetaphil</p>
+                <a href="https://glowbnb.com/product/cetaphil-oily-skin-cleanser-236ml/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/nails3.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Hybrid Gel Remover</h2>
+                <p class="description">Seren London Professional</p>
+                <a
+                  href="https://www.essentials.lk/collections/nails/products/seren-landon-professional-acetone-hybrid-gel-remover-pro-erase-formula-90ml">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/makeup.3.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Liquid Eye Liner</h2>
+                <p class="description">Viana</p>
+                <a href="https://viana.lk/product/viana-waterproof-liquid-eye-liner/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/hair2.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Damage Recovery Shampoo</h2>
+                <p class="description">TREsemme</p>
+                <a
+                  href="https://colombomall.lk/product/tresemme-pro-pure-damage-recovery-shampoo-with-fermented-rice-water-sulphate-free-paraben-free-for-damaged-hair-370-ml-from-india-sab/">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/skin2.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Foaming Clenser</h2>
+                <p class="description">Cerave</p>
+                <a
+                  href="https://www.essentials.lk/collections/cerave/products/cerave-foaming-cleanser-for-normal-to-oily-skin-236ml">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/nails2.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Nail Polish Remover</h2>
+                <p class="description">Seren London</p>
+                <a
+                  href="https://www.essentials.lk/collections/nails/products/seren-london-with-active-liquorice-extract-acetone-free-nail-polish-remover-100ml">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/makeup2.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Fit me Concealer</h2>
+                <p class="description">Maybelline</p>
+                <a href="https://www.essentials.lk/collections/concealers/products/maybelline-new-york-fit-me-matte">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/hair1.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Volume Shampoo</h2>
+                <p class="description">TREsemme</p>
+                <a
+                  href="https://www.ubuy.com.lk/en/product/7H6NVMRIA-tresemme-shampoo-full-fiber-volume-20-ounce-592ml-pack-of-2">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/skin1.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Smoothing Clenser</h2>
+                <p class="description">Cerave SA</p>
+                <a
+                  href="https://www.essentials.lk/products/cerave-sa-smoothing-cleanser-for-dry-rough-dumpy-skin-236ml">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/nails1.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Collagen Gummy</h2>
+                <p class="description">True Blue</p>
+                <a href="https://www.essentials.lk/collections/nails/products/true-blue-collagen-gummy-1100mg">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="imges/makeup1.webp" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Liquid Foundation</h2>
+                <p class="description">Maybelline</p>
+                <a href="https://www.essentials.lk/collections/foundations/products/maybelline-fit-me">
+                  <button class="button">Buy</button></a>
+
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-naviBtn"></div>
+        <div class="swiper-button-prev swiper-naviBtn"></div>
+        <div class="swiper-pagination swiper-naviBtn"></div>
+      </div>
+
+
+
+    </div>
+  </section>
+  </section>
+
+  <section id="hair" class="section_hair">
+    <div class="section__container">
+      <h2>HAIRCARE PRODUCTS</h2><br>
+      <div class="dashboard-content">
+        <div class="dashboard-card">
+          <img class="card-image" src="imges/hair1.webp">
+          <div class="card-detail">
+            <h4>TRESemme Full Fiber Volume Shampoo </h4>
+            <p>For Thin Hair </p>
+            <center><a
+                href="https://www.ubuy.com.lk/en/product/7H6NVMRIA-tresemme-shampoo-full-fiber-volume-20-ounce-592ml-pack-of-2">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/hair2.webp">
+          <div class="card-detail">
+            <h4>TREsemme Damage Recovery Shampoo</h4>
+            <p> For Damaged Hair </p>
+            <center><a
+                href="https://colombomall.lk/product/tresemme-pro-pure-damage-recovery-shampoo-with-fermented-rice-water-sulphate-free-paraben-free-for-damaged-hair-370-ml-from-india-sab/">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-image" src="imges/hair3.jpg">
+          <div class="card-detail">
+            <h4>L'OREAL Elvive Anti-Breakage Shampoo</h4>
+            <p>For Weakened Hair </p>
+            <center><a href="https://cosmetics.lk/product/loreal-elvive-anti-breakage-strengthening-shampoo-400ml/">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/hair4.webp">
+          <div class="card-detail">
+            <h4>L'OREAL Elvive Hydra Pure Conditioner</h4>
+            <p>For Dehydrated Hair</p>
+            <center><a href="https://cosmetics.lk/product/loreal-elvive-hydra-pure-72h-purifying-shampoo-400ml/">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/hair5.webp">
+          <div class="card-detail">
+            <h4>TRESemme Full Fiber Volume Conditioner</h4>
+            <p>For Thin Hair</p>
+            <center><a
+                href="https://www.ubuy.com.lk/en/product/6KI6CHMA-tresemme-pro-advanced-conditioner-for-instant-volume-and-body-fiber-full-volume-long-lasting-buildab">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/hair6.webp">
+          <div class="card-detail">
+            <h4>TRESemme Keratin Anti Friz Conditioner</h4>
+            <p>For Frizzy Hair</p>
+            <center><a
+                href="https://cosmetics.lk/product/tresemme-buy-keratin-smooth-marula-oil-conditioner-400ml-sri-lanka/">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/hair7.jpg">
+          <div class="card-detail">
+            <h4>Dreamron Leave on Conditioner</h4>
+            <p>For Frizzy & Curly Hair</p>
+            <center><a href="https://dreamron.lk/product/leave-on-conditioner/"> <button class="button btn-Click"> Shop
+                </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/hair-8.webp">
+          <div class="card-detail">
+            <h4>Spa Ceylon Virgin Coconut Hair Oil</h4>
+            <p>For Dry,Very Dry & Unruly Hair</p>
+            <center><a href="https://lk.spaceylon.com/products/virgin-coconut-scalp-hair-nourishing-oil-100ml"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="skin" class="section_skin">
+    <div class="section__container">
+      <h2>SKINCARE PRODUCTS</h2><br>
+      <div class="dashboard-content">
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/skin1.webp">
+          <div class="card-detail">
+            <h4>Cerave SA Smoothing Clenser</h4>
+            <p>For Dry,Rough & Bumpy skin</p>
+            <center><a
+                href="https://www.essentials.lk/products/cerave-sa-smoothing-cleanser-for-dry-rough-dumpy-skin-236ml">
+                <button class="button btn-Click"> Shop</button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/skin2.webp">
+          <div class="card-detail">
+            <h4>Cerave Foaming clenser</h4>
+            <p> For Normal to Oily Skin </p>
+            <center><a
+                href="https://www.essentials.lk/collections/cerave/products/cerave-foaming-cleanser-for-normal-to-oily-skin-236ml">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/skin3.jpg">
+          <div class="card-detail">
+            <h4>Cetaphil oily Skin Clenser</h4>
+            <p>For Oily Skin</p>
+            <center><a href="https://glowbnb.com/product/cetaphil-oily-skin-cleanser-236ml/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/skin4.jpg">
+          <div class="card-detail">
+            <h4>Cetaphil Sheer Mineral SunScreen</h4>
+            <p>SPF - 50</p>
+            <center><a href="https://cosmetics.lk/product/cetaphil-sheer-mineral-sunscreen-spf50-89ml/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/skin5.jpg">
+          <div class="card-detail">
+            <h4>Cerave AM Facial Moisturizing lotion</h4>
+            <p>For All Skin Type</p>
+            <center><a href="https://cosmetics.lk/product/cerave-am-facial-moisturizing-lotion-89ml-spf-30/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/skin6.jpeg">
+          <div class="card-detail">
+            <h4>Cetaphil Bright Radiance Toner</h4>
+            <p>For All Skin Types</p>
+            <center><a
+                href="https://cosmetics.lk/product/tresemme-buy-keratin-smooth-marula-oil-conditioner-400ml-sri-lanka/">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/skin7.jpeg">
+          <div class="card-detail">
+            <h4> The Ordinary Niacinamide 10% </h4>
+            <p> (+ Zinc 1%)For Oily Skin</p>
+            <center><a href="https://www.essentials.lk/products/the-ordinary-niacinamide-10-zinc-1-30ml-2585-2-3670-7">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/skin8.webp">
+          <div class="card-detail">
+            <h4>The Ordinary Alpha Aributin 2% + HA</h4>
+            <p>For Acne Skin</p>
+            <center><a href="https://cosmetics.lk/product/the-ordinary-alpha-arbutin-2-ha-serum-30ml-canada/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nails" class="section_nails">
+    <div class="section__container">
+      <h2>NAILCARE PRODUCTS</h2>
+      <div class="dashboard-content">
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/nails1.webp">
+          <div class="card-detail">
+            <h4>True Blue Collagen Gummy</h4>
+            <p>1100 mg Collagen</p>
+            <center><a href="https://www.essentials.lk/collections/nails/products/true-blue-collagen-gummy-1100mg">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/nails2.webp">
+          <div class="card-detail">
+            <h4>Seren London Nail Polish Remover </h4>
+            <p>Acetone Free</p>
+            <center><a
+                href="https://www.essentials.lk/collections/nails/products/seren-london-with-active-liquorice-extract-acetone-free-nail-polish-remover-100ml">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/nails3.webp">
+          <div class="card-detail">
+            <h4>Seren Landon Hybrid Gel Remover </h4>
+            <p>Pro Erase Formula</p>
+            <center><a
+                href="https://www.essentials.lk/collections/nails/products/seren-landon-professional-acetone-hybrid-gel-remover-pro-erase-formula-90ml">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/nails4.webp">
+          <div class="card-detail">
+            <h4>Silcare Help To - Jelly Primer </h4>
+            <p>Acid-free primer </p>
+            <center><a
+                href="https://www.essentials.lk/collections/nails/products/silcare-help-to-quick-fix-myco-jelly-primer-15ml">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/nail5.webp">
+          <div class="card-detail">
+            <h4>Seren London Vegan Cuticle Oil</h4>
+            <p>moisturise and Nourishing</p>
+            <center><a
+                href="https://www.essentials.lk/collections/nails/products/seren-london-vegan-mango-orange-cuticle-oil">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/nail.6.jpg">
+          <div class="card-detail">
+            <h4>Viana Fashion Nail Polish </h4>
+            <p>21 Toxin-Free Viana</p>
+            <center><a href="https://viana.lk/product/viana-fashion-nail-polish-valentine-edition/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/nail7.png">
+          <div class="card-detail">
+            <h4>MORGAN TAYLOR Nail Polish</h4>
+            <p>Professional Nail Laquer</p>
+            <center><a href="https://www.britishcosmetics.lk/shop/morgan-taylor-nail-polish/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/nail8.jpg">
+          <div class="card-detail">
+            <h4>Dip Essentials Top Coat</h4>
+            <p>Calcium, vitamins A and E</p>
+            <center><a href="https://www.britishcosmetics.lk/shop/dip-essentials-top-coat/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="makeup" class="section_makeup">
+    <div class="section__container">
+      <h2>MAKE-UP PRODUCTS</h2>
+      <div class="dashboard-content">
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/makeup1.webp">
+          <div class="card-detail">
+            <h4>Maybelline Fit Me Liquid Foundation </h4>
+            <p>For Normal to Oily Skin</p>
+            <center><a href="https://www.essentials.lk/collections/foundations/products/maybelline-fit-me"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/makeup2.webp">
+          <div class="card-detail">
+            <h4> Maybelline New York Fit Me Concealer</h4>
+            </h4>
+            <p> Anti - Cerenes</p>
+            <center><a
+                href="https://www.essentials.lk/collections/concealers/products/maybelline-new-york-fit-me-matte">
+                <button class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/makeup.3.jpg">
+          <div class="card-detail">
+            <h4>Viana Waterproof Liquid Eye Liner</h4>
+            <p>For Perfect Winged Liner</p>
+            <center><a href="https://viana.lk/product/viana-waterproof-liquid-eye-liner/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/makeup4.png">
+          <div class="card-detail">
+            <h4>MOCHA Eye Shadow Palette</h4>
+            <p>Holiday Collection</p>
+            <center><a href="https://www.britishcosmetics.lk/shop/mocha-eye-shadow-palette/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/makeup.5.png">
+          <div class="card-detail">
+            <h4>Glowy Lip Balm<br> Peach</h4>
+            <p>Rich in Vitamin C</p>
+            <center><a href="https://www.britishcosmetics.lk/shop/glowy-lip-balm-peach/"> <button
+                  class="button btn-Click"> Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/makeup.6.jpg">
+          <div class="card-detail">
+            <h4>Viana Powder<br> Blusher</h4>
+            <p>A powder blush</p>
+            <center><a href="https://viana.lk/product/makeup-face-viana-blusher/"> <button class="button btn-Click">
+                  Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/makeup7.webp">
+          <div class="card-detail">
+            <h4>Viana Water Proof Mascara</h4>
+            <p>Long-lasting, water-resistant</p>
+            <center><a href="https://viana.lk/product/viana-water-proof-mascara/"> <button class="button btn-Click">
+                  Shop </button></a></center>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <img class="card-images" src="imges/makeup8.png">
+          <div class="card-detail">
+            <h4>Lip Liner CCUK (creamy)</h4>
+            <p> Long-lasting</p>
+            <center><a href="https://www.britishcosmetics.lk/shop/lip-liner/"> <button class="button btn-Click"> Shop
+                </button></a></center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer">
+      <p>&copy; 2024 Glamour Touch</p>
+    </div>
+
+  </footer>
+
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script> -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
